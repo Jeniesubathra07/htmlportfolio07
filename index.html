@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Developer Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Jenie Subathra </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">HTML Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center text-center text-light">
+        <div class="container reveal">
+            <h1 class="display-3 fw-bold mb-4">HTML Developer & Web Enthusiast</h1>
+            <p class="lead mb-5 mx-auto" style="max-width: 700px;">
+                Passionate about writing clean, semantic, and accessible HTML.
+                I believe that a strong structure is the foundation of every great web experience.
+            </p>
+            <a href="#certificates" class="btn btn-primary btn-lg btn-animated">View Certificates</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container reveal">
+            <h2 class="text-center mb-5 fw-bold">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="SMA04291.JPG" alt="Profile Image" class="img-fluid rounded shadow"
+                            style="max-height: 400px; width: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>My Journey into HTML</h3>
+                    <p>
+                        It all started when I right-clicked and selected "Inspect Element". Seeing the structure behind
+                        the web fascinated me.
+                        I started building simple pages, learning the importance of tags, attributes, and document flow.
+                    </p>
+                    <p>
+                        Today, I focus on crafting semantic HTML that isn't just code—it's meaningful content structure
+                        that improves accessibility and SEO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container reveal">
+            <h2 class="text-center mb-5 fw-bold">HTML Expertise</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Semantic HTML</h5>
+                            <p class="card-text text-muted">Proper use of &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;,
+                                &lt;article&gt;, etc.</p>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Forms & Validation</h5>
+                            <p class="card-text text-muted">Building robust forms with required types and patterns.</p>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Accessibility (a11y)</h5>
+                            <p class="card-text text-muted">ARIA labels, alt text, and keyboard navigation support.</p>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center p-4 border-0 shadow-sm skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Media & Tables</h5>
+                            <p class="card-text text-muted">Embedding audio/video and structuring data tables.</p>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container reveal">
+            <h2 class="text-center mb-5 fw-bold">HTML Projects</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Freelancing Website</h5>
+                            <p class="card-text">A multi-column freelance dashboard structure demonstrating client
+                                sidebar and gig main content usage.</p>
+                            <span class="badge bg-secondary mb-3">HTML,CSS,JS</span>
+                            <a href="https://freelancing07.netlify.app/"
+                                class="btn btn-outline-primary w-100 btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tip for user -->
+            <div class="text-center mt-5 text-muted fst-italic">
+                <!-- Replace the HREF in anchor tags above with your actual project links -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-5">
+        <div class="container reveal">
+            <h2 class="text-center mb-5 fw-bold">Certifications</h2>
+            <div id="certCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card text-center border-0 shadow p-5">
+                                    <h3 class="fw-bold">HTML Mastery Certificate</h3>
+                                    <p class="lead">Issued by Lumos Learning</p>
+                                    <button class="btn btn-primary btn-lg mt-3 btn-animated" data-bs-toggle="modal"
+                                        data-bs-target="#certModal1">
+                                        View Certificate
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#certCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#certCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Certificates -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="certModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="mb-3">
+                        <!-- Replace src with your certificate image path -->
+                        <embed src="d:\Documents\html.pdf" type="application/pdf" width="100%" height="500px"
+                            class="rounded border shadow-sm">
+                        <div class="mt-2 text-muted small">
+                            If the PDF doesn't load, <a
+                                href="https://drive.google.com/file/d/1XP_iJ7TYS2Z6OrSWHFN8zLAosz1MwXd0/view?usp=sharing"
+                                target="_blank">click here to
+                                view</a>.
+                        </div>
+                    </div>
+                    <h5>HTML5 Mastery Certificate</h5>
+                    <p class="text-muted">Completed in 2026. Covered advanced HTML APIs and semantics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade" id="certModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="bg-light p-5 mb-3 rounded">
+                        <h4 class="text-muted">Certificate Image Placeholder</h4>
+                    </div>
+                    <h5>Web Accessibility Fundamentals</h5>
+                    <p class="text-muted">Completed in 2024. Focus on WCAG guidelines and inclusive design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-light">
+        <div class="container reveal">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="fw-bold mb-4">Let's build clean, semantic web pages together</h2>
+                    <p class="mb-5">Have a project in mind or just want to talk about HTML tags? Drop me a message.</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6 text-start">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6 text-start">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="col-12 text-start">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Your message..."></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-primary btn-lg btn-animated w-50">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-3">
+        <div class="container">
+            <small>&copy; 2026 Jenie Subathra . Built with ❤️ and Semantic HTML.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- 
+        NOTE TO USER:
+        - To add more projects, duplicate the .col-md-6.col-lg-3 block in the #projects section.
+        - To add more certificates:
+            1. Add a new .carousel-item in the #certCarousel.
+            2. Create a corresponding Modal with a unique ID (e.g., #certModal3).
+            3. Update the data-bs-target attribute on the button to match the new Modal ID.
+    -->
+</body>
+
+</html>
